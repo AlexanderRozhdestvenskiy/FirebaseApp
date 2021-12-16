@@ -13,6 +13,10 @@
 		890DC10F276BA7EC000337E4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 890DC10E276BA7EC000337E4 /* FirebaseFirestore */; };
 		890DC111276BA7EC000337E4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 890DC110276BA7EC000337E4 /* FirebaseStorage */; };
 		890DC113276BB3A0000337E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 890DC112276BB39F000337E4 /* GoogleService-Info.plist */; };
+		890DC116276BB5F8000337E4 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890DC115276BB5F8000337E4 /* IAPManager.swift */; };
+		890DC118276BB68A000337E4 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890DC117276BB68A000337E4 /* DatabaseManager.swift */; };
+		890DC11A276BB71F000337E4 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890DC119276BB71F000337E4 /* AuthManager.swift */; };
+		890DC11C276BB763000337E4 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890DC11B276BB763000337E4 /* StorageManager.swift */; };
 		89DA0D02276B778F00F1EC69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA0D01276B778F00F1EC69 /* AppDelegate.swift */; };
 		89DA0D04276B778F00F1EC69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA0D03276B778F00F1EC69 /* SceneDelegate.swift */; };
 		89DA0D06276B778F00F1EC69 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA0D05276B778F00F1EC69 /* HomeViewController.swift */; };
@@ -24,6 +28,10 @@
 /* Begin PBXFileReference section */
 		890DC107276BA09D000337E4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		890DC112276BB39F000337E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		890DC115276BB5F8000337E4 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		890DC117276BB68A000337E4 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		890DC119276BB71F000337E4 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		890DC11B276BB763000337E4 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		89DA0CFE276B778F00F1EC69 /* FirebaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DA0D01276B778F00F1EC69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89DA0D03276B778F00F1EC69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		890DC114276BB5DA000337E4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				890DC115276BB5F8000337E4 /* IAPManager.swift */,
+				890DC117276BB68A000337E4 /* DatabaseManager.swift */,
+				890DC119276BB71F000337E4 /* AuthManager.swift */,
+				890DC11B276BB763000337E4 /* StorageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		89DA0CF5276B778F00F1EC69 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +87,7 @@
 		89DA0D00276B778F00F1EC69 /* FirebaseApp */ = {
 			isa = PBXGroup;
 			children = (
+				890DC114276BB5DA000337E4 /* Managers */,
 				89DA0D01276B778F00F1EC69 /* AppDelegate.swift */,
 				89DA0D03276B778F00F1EC69 /* SceneDelegate.swift */,
 				89DA0D17276B9C0D00F1EC69 /* Controllers */,
@@ -169,11 +189,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890DC116276BB5F8000337E4 /* IAPManager.swift in Sources */,
+				890DC11A276BB71F000337E4 /* AuthManager.swift in Sources */,
 				89DA0D16276B7C0300F1EC69 /* TabBarViewController.swift in Sources */,
+				890DC11C276BB763000337E4 /* StorageManager.swift in Sources */,
 				89DA0D06276B778F00F1EC69 /* HomeViewController.swift in Sources */,
 				890DC108276BA09D000337E4 /* ProfileViewController.swift in Sources */,
 				89DA0D02276B778F00F1EC69 /* AppDelegate.swift in Sources */,
 				89DA0D04276B778F00F1EC69 /* SceneDelegate.swift in Sources */,
+				890DC118276BB68A000337E4 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
