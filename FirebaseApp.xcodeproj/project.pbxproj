@@ -12,6 +12,7 @@
 		89DA0D06276B778F00F1EC69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA0D05276B778F00F1EC69 /* ViewController.swift */; };
 		89DA0D0B276B779200F1EC69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DA0D0A276B779200F1EC69 /* Assets.xcassets */; };
 		89DA0D0E276B779200F1EC69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DA0D0C276B779200F1EC69 /* LaunchScreen.storyboard */; };
+		89DA0D16276B7C0300F1EC69 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DA0D15276B7C0300F1EC69 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		89DA0D0A276B779200F1EC69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89DA0D0D276B779200F1EC69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89DA0D0F276B779200F1EC69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DA0D15276B7C0300F1EC69 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				89DA0D01276B778F00F1EC69 /* AppDelegate.swift */,
 				89DA0D03276B778F00F1EC69 /* SceneDelegate.swift */,
-				89DA0D05276B778F00F1EC69 /* ViewController.swift */,
+				89DA0D17276B9C0D00F1EC69 /* Controllers */,
 				89DA0D0A276B779200F1EC69 /* Assets.xcassets */,
 				89DA0D0C276B779200F1EC69 /* LaunchScreen.storyboard */,
 				89DA0D0F276B779200F1EC69 /* Info.plist */,
 			);
 			path = FirebaseApp;
+			sourceTree = "<group>";
+		};
+		89DA0D17276B9C0D00F1EC69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89DA0D05276B778F00F1EC69 /* ViewController.swift */,
+				89DA0D15276B7C0300F1EC69 /* TabBarViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DA0D16276B7C0300F1EC69 /* TabBarViewController.swift in Sources */,
 				89DA0D06276B778F00F1EC69 /* ViewController.swift in Sources */,
 				89DA0D02276B778F00F1EC69 /* AppDelegate.swift in Sources */,
 				89DA0D04276B778F00F1EC69 /* SceneDelegate.swift in Sources */,
