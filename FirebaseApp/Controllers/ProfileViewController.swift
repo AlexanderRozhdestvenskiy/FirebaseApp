@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProfileViewController.swift
 //  FirebaseApp
 //
 //  Created by Alexander Rozhdestvenskiy on 16.12.2021.
@@ -7,13 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .link
+        view.backgroundColor = .systemBackground
     }
-
-
 }
-
