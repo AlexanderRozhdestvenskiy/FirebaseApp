@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>561550295759-neu2g4fkl2mi3tvieq2bdeh6idh82cs4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.561550295759-neu2g4fkl2mi3tvieq2bdeh6idh82cs4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDeHxpvTGaWbqik0XiRfy46sXo7QlYKPW0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>561550295759</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>evilroot.com.FirebaseApp</string>
+	<key>PROJECT_ID</key>
+	<string>fir-app-d4807</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-app-d4807.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:561550295759:ios:2e3b752d1f255fca852dba</string>
+</dict>
+</plist>
